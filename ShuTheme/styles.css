@@ -212,8 +212,9 @@ a {
 }
 
 .product-topper img {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 300px;
+    max-height: 300px;
+    display: block
 }
 
 .product-topper-textarea {
@@ -259,6 +260,12 @@ a {
     letter-spacing: -.022em;
     font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
     margin-top: 20px;
+}
+
+.product-privacypolicy {
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
 }
 
 .app-store {
